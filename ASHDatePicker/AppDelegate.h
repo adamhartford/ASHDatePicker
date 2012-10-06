@@ -8,8 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class ASHDatePicker;
+
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet ASHDatePicker *datePicker;
 
 @end

@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66264B0D161FB360001EAC51 /* ASHDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CC45F3161FB225009153B0 /* ASHDatePicker.m */; };
+		66264B12161FB4A0001EAC51 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 66264B11161FB4A0001EAC51 /* screenshot.png */; };
 		66CC45CF161FB20B009153B0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CC45CE161FB20B009153B0 /* Cocoa.framework */; };
 		66CC45D9161FB20B009153B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66CC45D7161FB20B009153B0 /* InfoPlist.strings */; };
 		66CC45DB161FB20B009153B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CC45DA161FB20B009153B0 /* main.m */; };
 		66CC45DF161FB20B009153B0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 66CC45DD161FB20B009153B0 /* Credits.rtf */; };
 		66CC45E2161FB20B009153B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CC45E1161FB20B009153B0 /* AppDelegate.m */; };
 		66CC45E5161FB20B009153B0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66CC45E3161FB20B009153B0 /* MainMenu.xib */; };
+		66CC45EF161FB21C009153B0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 66CC45EC161FB21C009153B0 /* README.md */; };
+		66CC45F0161FB21C009153B0 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 66CC45ED161FB21C009153B0 /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66264B11161FB4A0001EAC51 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		66CC45CA161FB20B009153B0 /* ASHDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASHDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CC45CE161FB20B009153B0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		66CC45D1161FB20B009153B0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -29,6 +34,10 @@
 		66CC45E0161FB20B009153B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		66CC45E1161FB20B009153B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		66CC45E4161FB20B009153B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		66CC45EC161FB21C009153B0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		66CC45ED161FB21C009153B0 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		66CC45F2161FB225009153B0 /* ASHDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASHDatePicker.h; sourceTree = "<group>"; };
+		66CC45F3161FB225009153B0 /* ASHDatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASHDatePicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +55,11 @@
 		66CC45BF161FB20B009153B0 = {
 			isa = PBXGroup;
 			children = (
-				66CC45D4161FB20B009153B0 /* ASHDatePicker */,
+				66CC45EC161FB21C009153B0 /* README.md */,
+				66CC45ED161FB21C009153B0 /* LICENSE.txt */,
+				66264B11161FB4A0001EAC51 /* screenshot.png */,
+				66CC45EB161FB215009153B0 /* ASHDatePicker */,
+				66CC45D4161FB20B009153B0 /* Demo */,
 				66CC45CD161FB20B009153B0 /* Frameworks */,
 				66CC45CB161FB20B009153B0 /* Products */,
 			);
@@ -79,7 +92,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		66CC45D4161FB20B009153B0 /* ASHDatePicker */ = {
+		66CC45D4161FB20B009153B0 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
 				66CC45E0161FB20B009153B0 /* AppDelegate.h */,
@@ -87,6 +100,7 @@
 				66CC45E3161FB20B009153B0 /* MainMenu.xib */,
 				66CC45D5161FB20B009153B0 /* Supporting Files */,
 			);
+			name = Demo;
 			path = ASHDatePicker;
 			sourceTree = "<group>";
 		};
@@ -100,6 +114,15 @@
 				66CC45DD161FB20B009153B0 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66CC45EB161FB215009153B0 /* ASHDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				66CC45F2161FB225009153B0 /* ASHDatePicker.h */,
+				66CC45F3161FB225009153B0 /* ASHDatePicker.m */,
+			);
+			name = ASHDatePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +179,9 @@
 				66CC45D9161FB20B009153B0 /* InfoPlist.strings in Resources */,
 				66CC45DF161FB20B009153B0 /* Credits.rtf in Resources */,
 				66CC45E5161FB20B009153B0 /* MainMenu.xib in Resources */,
+				66CC45EF161FB21C009153B0 /* README.md in Resources */,
+				66CC45F0161FB21C009153B0 /* LICENSE.txt in Resources */,
+				66264B12161FB4A0001EAC51 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +194,7 @@
 			files = (
 				66CC45DB161FB20B009153B0 /* main.m in Sources */,
 				66CC45E2161FB20B009153B0 /* AppDelegate.m in Sources */,
+				66264B0D161FB360001EAC51 /* ASHDatePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +324,7 @@
 				66CC45EA161FB20B009153B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
