@@ -1,6 +1,6 @@
 # ASHDatePicker
 
-ASHDatePicker is an NSDatePicker subclass that provides an attached NSPopover.
+ASHDatePicker is an NSDatePicker subclass that provides an attached NSPopover. It is bindings compatible.
 
 ## Usage
 
