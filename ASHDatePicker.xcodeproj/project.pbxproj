@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		66264B0D161FB360001EAC51 /* ASHDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CC45F3161FB225009153B0 /* ASHDatePicker.m */; };
-		66264B12161FB4A0001EAC51 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 66264B11161FB4A0001EAC51 /* screenshot.png */; };
+		665692931629F78400732B93 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 665692921629F78400732B93 /* screenshot.png */; };
 		66CC45CF161FB20B009153B0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CC45CE161FB20B009153B0 /* Cocoa.framework */; };
 		66CC45D9161FB20B009153B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66CC45D7161FB20B009153B0 /* InfoPlist.strings */; };
 		66CC45DB161FB20B009153B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CC45DA161FB20B009153B0 /* main.m */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		66264B11161FB4A0001EAC51 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		665692921629F78400732B93 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		66CC45CA161FB20B009153B0 /* ASHDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASHDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CC45CE161FB20B009153B0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		66CC45D1161FB20B009153B0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -57,7 +57,7 @@
 			children = (
 				66CC45EC161FB21C009153B0 /* README.md */,
 				66CC45ED161FB21C009153B0 /* LICENSE.txt */,
-				66264B11161FB4A0001EAC51 /* screenshot.png */,
+				665692921629F78400732B93 /* screenshot.png */,
 				66CC45EB161FB215009153B0 /* ASHDatePicker */,
 				66CC45D4161FB20B009153B0 /* Demo */,
 				66CC45CD161FB20B009153B0 /* Frameworks */,
@@ -181,7 +181,7 @@
 				66CC45E5161FB20B009153B0 /* MainMenu.xib in Resources */,
 				66CC45EF161FB21C009153B0 /* README.md in Resources */,
 				66CC45F0161FB21C009153B0 /* LICENSE.txt in Resources */,
-				66264B12161FB4A0001EAC51 /* screenshot.png in Resources */,
+				665692931629F78400732B93 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

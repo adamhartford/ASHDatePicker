@@ -7,12 +7,16 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "ASHDatePicker.h"
 
 @class ASHDatePicker;
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, ASHDatePickerDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
 @property (assign) IBOutlet ASHDatePicker *datePicker;
+@property (assign) IBOutlet NSButton *showPopoverButton;
+
+- (IBAction)preferredEdgeChanged:(id)sender;
 
 @end

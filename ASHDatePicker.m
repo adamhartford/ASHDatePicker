@@ -11,6 +11,8 @@
 @implementation ASHDatePicker
 
 @synthesize popover = _popover;
+@synthesize delegate = _delegate;
+@synthesize preferredPopoverEdge = _preferredPopoverEdge;
 
 - (void)popoverDateAction
 {
@@ -36,14 +38,15 @@
     _popover = [[NSPopover alloc] init];
     _popover.contentViewController = controller;
     _popover.behavior = NSPopoverBehaviorSemitransient;
+    
+    _preferredPopoverEdge = NSMaxXEdge;
 }
 
 - (id)initWithFrame:(NSRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code here.
-        
+        // Initialization code here.   
     }
     
     return self;
@@ -59,7 +62,13 @@
 {
     showingPopover = YES;
     controller.datePicker.dateValue = self.dateValue;
-    [_popover showRelativeToRect:self.bounds ofView:self preferredEdge:NSMaxXEdge];
+    
+    if (![_delegate respondsToSelector:@selector(datePickerShouldShowPopover:)]
+        || [_delegate datePickerShouldShowPopover:self]) {
+        
+        [_popover showRelativeToRect:self.bounds ofView:self preferredEdge:_preferredPopoverEdge];
+    }
+    
     showingPopover = NO;
     return [super becomeFirstResponder];
 }
