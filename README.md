@@ -1,3 +1,5 @@
+**NOTE:** This project is obsolete. I've reimplemented it in Swift at https://github.com/adamhartford/PopDatePicker.
+
 # ASHDatePicker
 
 ASHDatePicker is an NSDatePicker subclass that provides an attached NSPopover. It is bindings compatible.
